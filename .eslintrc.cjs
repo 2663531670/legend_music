@@ -3,6 +3,7 @@ module.exports = {
         "browser": true,
         "es2021": true
     },
+    "files": ["src/**/*.ts", "src/**/*.vue"],
     "extends": [
         "eslint:recommended",
         "plugin:vue/vue3-essential",
@@ -20,6 +21,7 @@ module.exports = {
     ],
     "rules": {
         "semi": ["error", "never"],
-        "quotes": ["error", "single"]
+        "quotes": ["error", "single"],
+        "no-undef": "off"
     }
 }
