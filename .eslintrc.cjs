@@ -8,8 +8,7 @@ module.exports = {
         "plugin:vue/vue3-essential",
         "plugin:@typescript-eslint/recommended"
     ],
-    "overrides": [
-    ],
+    "overrides": [],
     "parser": "@typescript-eslint/parser",
     "parserOptions": {
         "ecmaVersion": "latest",
